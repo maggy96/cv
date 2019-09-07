@@ -4,7 +4,7 @@ import PropTypes from 'proptypes';
 const Section = ({
   headline, description, number, children,
 }) => (
-  <div className="container">
+  <div className="container py-5">
     <div className="row">
       <div className="col-2">
         <h1 className="display-2 d-none d-md-block">
@@ -22,7 +22,7 @@ const Section = ({
 
 Section.propTypes = {
   headline: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
   number: PropTypes.string.isRequired,
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
@@ -32,6 +32,7 @@ Section.propTypes = {
 
 Section.defaultProps = {
   children: null,
+  description: null,
 };
 
 export default Section;
