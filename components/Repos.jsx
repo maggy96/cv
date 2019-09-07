@@ -61,7 +61,7 @@ class Repos extends React.Component {
   render() {
     const { repos, loading } = this.state;
     return (
-      <div className="card repositories">
+      <div className="card m-5 repositories">
         <div className="card-header">
           Pinned Github Repositories
           {' '}
