@@ -1,5 +1,6 @@
 import React from 'react';
 import Event from '../components/Event';
+import Repos from '../components/Repos';
 import Section from '../components/Section';
 import './index.sass';
 
@@ -14,7 +15,7 @@ const Home = () => [
     headline="Skills"
     description="I'm an experienced full-stack developer, doing React, NodeJS and Rails. I use this toolset to create reactive, blazing fast and rock-solid web-applications. Also have a look at my GitHub profile to get a better idea of what I'm up to."
   >
-    <ul className="row list-unstyled">
+    <ul className="row list-unstyled text-center">
       <li className="col-md-3 col-6 pb-3">React</li>
       <li className="col-md-3 col-6 pb-3">Redux</li>
       <li className="col-md-3 col-6 pb-3">NodeJS</li>
@@ -24,6 +25,7 @@ const Home = () => [
       <li className="col-md-3 col-6 pb-3">Docker</li>
       <li className="col-md-3 col-6 pb-3">Ansible</li>
     </ul>
+    <Repos />
   </Section>,
   <Section number="03" headline="Education">
     <Event
@@ -31,12 +33,6 @@ const Home = () => [
       institution="University of Augsburg"
       description="Focus of studies: Multimedia/Distributed Systems. Thesis: 'Comparison of Message Oriented Middlewares'"
       date="10.2014 - 03.2019"
-    />
-    <Event
-      title="Machine Learning"
-      institution="Stanford Online"
-      description="Micro-degree in machine learning under Associate Professor Andrew Ng. Certificate available at: https://www.coursera.org/account/accomplishments/certificate/CK75N37E3TKY"
-      date=""
     />
   </Section>,
   <Section number="04" headline="Work Experience">

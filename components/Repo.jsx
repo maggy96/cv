@@ -5,19 +5,20 @@ import PropTypes from 'proptypes';
 const Repo = ({
   name, description, stars, url,
 }) => (
-  <li className="list-group-item d-flex justify-content-between align-items-center">
-    <span>
+  <li className="row">
+    <div className="col-sm-4">
       <Octicon icon={getIconByName('repo')} />
       {' '}
       <a href={url}>{name}</a>
-      {' '}
+    </div>
+    <div className="col-sm-6">
       {description}
-    </span>
-    <span>
+    </div>
+    <div className="col-sm-2">
       {stars}
       {' '}
       <Octicon icon={getIconByName('star')} />
-    </span>
+    </div>
   </li>
 );
 

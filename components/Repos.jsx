@@ -61,17 +61,13 @@ class Repos extends React.Component {
   render() {
     const { repos, loading } = this.state;
     return (
-      <div className="card m-5 repositories">
-        <div className="card-header">
-          Pinned Github Repositories
-          {' '}
+      <div className="repositories">
+        <ul className="list-unstyled">
           {loading && (
             <div className="spinner-grow spinner-grow-sm" role="status">
               <span className="sr-only">Loading...</span>
             </div>
           )}
-        </div>
-        <ul className="list-group list-group-flush">
           {repos.map((repo) => (
             <Repo
               key={repo.name}
@@ -82,13 +78,13 @@ class Repos extends React.Component {
             />
           ))}
         </ul>
-        <style jsx>
+        {/* <style jsx>
           {`
             .repositories {
               width: 30rem;
             }
           `}
-        </style>
+        </style> */}
       </div>
     );
   }
