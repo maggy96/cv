@@ -13,10 +13,10 @@ const Event = ({
         {' '}
         <span className="font-weight-bold">{institution}</span>
       </p>
-      <p className="float-left">{description}</p>
+      <p className="float-left text-muted">{description}</p>
     </div>
     <div className="col-md-4">
-      <p className="float-right text-muted">{date}</p>
+      <p className="float-right">{date}</p>
     </div>
     <br />
   </div>
