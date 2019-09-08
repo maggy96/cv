@@ -1,7 +1,7 @@
 import React from 'react';
 import Event from '../components/Event';
 import Section from '../components/Section';
-import './index.sass';
+import './index.scss';
 
 const Home = () => [
   <Section
