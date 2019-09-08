@@ -1,0 +1,7 @@
+.section:before{
+  content: '';
+  display: block;
+  margin-left: auto;
+  width: 250px;
+  border-bottom: 3px solid black;
+}
