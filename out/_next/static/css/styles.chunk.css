@@ -1,0 +1,9 @@
+.section:before {
+  content: '';
+  display: block;
+  margin-left: auto;
+  width: 75px;
+  border-bottom: 5px solid black; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

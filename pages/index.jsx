@@ -1,9 +1,13 @@
+import Head from 'next/head';
 import React from 'react';
 import Event from '../components/Event';
 import Section from '../components/Section';
-import './index.scss';
 
 const Home = () => [
+  <Head>
+    <title>Magnus Görlitz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
+  </Head>,
   <Section
     number="01"
     headline="Magnus Görlitz"
