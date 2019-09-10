@@ -1,7 +1,11 @@
-.section:before{
-  content: '';
+.section:before {
+  display: none !important;
+  content: "";
   display: block;
   margin-left: auto;
   width: 75px;
   border-bottom: 5px solid black;
+  @media only screen and (min-width : 992px) {
+    display: block !important;
+  }
 }
