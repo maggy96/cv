@@ -48,7 +48,7 @@ const Home = () => [
       description="Maintained a lot of Rails projects, often LTS work on old
       versions of ruby/rails. Worked on applications for internal use as well as
       directly with the customer."
-      date="07.2014 - 10.2014"
+      date="01.2017 - 11.2017"
     />
     <Event
       title="Intern"
