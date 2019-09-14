@@ -4344,97 +4344,91 @@ var Home = function Home() {
       lineNumber: 85
     },
     __self: this
-  }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "React"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     },
     __self: this
-  }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     },
     __self: this
-  }, "Kubernetes"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, "Test Driven Development"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Webpack"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, "rabbitMQ"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Test Driven Development"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 91
     },
     __self: this
-  }, "Unit Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Express.js"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 92
     },
     __self: this
-  }, "Integration Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "rabbitMQ"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 93
     },
     __self: this
-  }, "redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Unit Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 94
     },
     __self: this
-  }, "JavaScript"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Babel"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 95
     },
     __self: this
-  }, "Scrum"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 96
     },
     __self: this
-  }, "Agile"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "NodeJS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 97
     },
     __self: this
-  }, "Microservices"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Storybook"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 98
     },
     __self: this
-  }, "Requirements Engineering"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Agile"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 99
     },
     __self: this
-  }, "Requirements Analysis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 100
-    },
-    __self: this
-  }, "Software Architecture")))];
+  }, "Microservices")))];
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
