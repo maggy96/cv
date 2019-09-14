@@ -82,22 +82,21 @@ const Home = () => [
   >
     <div>
       <Skill>Ansible</Skill>
+      <Skill>React</Skill>
       <Skill>MongoDB</Skill>
       <Skill>Redux</Skill>
       <Skill>Docker</Skill>
-      <Skill>Kubernetes</Skill>
+      <Skill>Webpack</Skill>
       <Skill>Test Driven Development</Skill>
+      <Skill>Express.js</Skill>
       <Skill>rabbitMQ</Skill>
       <Skill>Unit Testing</Skill>
-      <Skill>Integration Testing</Skill>
+      <Skill>Babel</Skill>
       <Skill>redis</Skill>
-      <Skill>JavaScript</Skill>
-      <Skill>Scrum</Skill>
+      <Skill>NodeJS</Skill>
+      <Skill>Storybook</Skill>
       <Skill>Agile</Skill>
       <Skill>Microservices</Skill>
-      <Skill>Requirements Engineering</Skill>
-      <Skill>Requirements Analysis</Skill>
-      <Skill>Software Architecture</Skill>
     </div>
   </Section>,
 ];
