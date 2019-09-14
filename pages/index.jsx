@@ -2,12 +2,17 @@ import Head from 'next/head';
 import React from 'react';
 import Event from '../components/Event';
 import Section from '../components/Section';
-// import Repos from '../components/Repos';
+import Skill from '../components/Skill';
 
 const Home = () => [
   <Head>
     <title>Magnus Görlitz</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossOrigin="anonymous"
+    />
   </Head>,
   <Section
     number="01"
@@ -75,23 +80,26 @@ const Home = () => [
     we often provide packages for other teams which makes it essential for me to
     know all the used libraries in detail."
   >
-    <ul className="row list-unstyled">
-      <li className="col-sm-3 col-6 pb-3">React</li>
-      <li className="col-sm-3 col-6 pb-3">Redux</li>
-      <li className="col-sm-3 col-6 pb-3">NodeJS</li>
-      <li className="col-sm-3 col-6 pb-3">GraphQl</li>
-      <li className="col-sm-3 col-6 pb-3">rabbitMQ</li>
-      <li className="col-sm-3 col-6 pb-3">MongoDB</li>
-      <li className="col-sm-3 col-6 pb-3">Docker</li>
-      <li className="col-sm-3 col-6 pb-3">Ansible</li>
-      <li className="col-sm-3 col-6 pb-3">Jest</li>
-      <li className="col-sm-3 col-6 pb-3">Babel</li>
-      <li className="col-sm-3 col-6 pb-3">Webpack</li>
-      <li className="col-sm-3 col-6 pb-3">Storybook</li>
-    </ul>
+    <div>
+      <Skill>Ansible</Skill>
+      <Skill>MongoDB</Skill>
+      <Skill>Redux</Skill>
+      <Skill>Docker</Skill>
+      <Skill>Kubernetes</Skill>
+      <Skill>Test Driven Development</Skill>
+      <Skill>rabbitMQ</Skill>
+      <Skill>Unit Testing</Skill>
+      <Skill>Integration Testing</Skill>
+      <Skill>redis</Skill>
+      <Skill>JavaScript</Skill>
+      <Skill>Scrum</Skill>
+      <Skill>Agile</Skill>
+      <Skill>Microservices</Skill>
+      <Skill>Requirements Engineering</Skill>
+      <Skill>Requirements Analysis</Skill>
+      <Skill>Software Architecture</Skill>
+    </div>
   </Section>,
-
-
 ];
 
 export default Home;

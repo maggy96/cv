@@ -182,6 +182,43 @@ Section.defaultProps = {
 
 /***/ }),
 
+/***/ "./components/Skill.jsx":
+/*!******************************!*\
+  !*** ./components/Skill.jsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proptypes */ "./node_modules/proptypes/index.js");
+/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proptypes__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/magnus/code/resume/components/Skill.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Skill = function Skill(_ref) {
+  var children = _ref.children;
+  return __jsx("span", {
+    className: "badge badge-pill badge-dark m-1 p-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, children);
+};
+
+Skill.propTypes = {
+  children: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node), proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node]).isRequired
+};
+/* harmony default export */ __webpack_exports__["default"] = (Skill);
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -4163,12 +4200,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Event__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Event */ "./components/Event.jsx");
 /* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Section */ "./components/Section.jsx");
+/* harmony import */ var _components_Skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Skill */ "./components/Skill.jsx");
 var _jsxFileName = "/Users/magnus/code/resume/pages/index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
- // import Repos from '../components/Repos';
+
+
 
 var Home = function Home() {
   return [__jsx(next_head__WEBPACK_IMPORTED_MODULE_0___default.a, {
@@ -4199,7 +4238,7 @@ var Home = function Home() {
     description: "I'm an experienced full-stack engineer, specialized in the React/NodeJS stack. I'm a big fan of agile practices and good teamwork. In my opinion, there's nothing more beautiful than a clean and minimal codebase. In my experience, one of the biggest challenges in growing teams is keeping things up to date and technical debt at bay.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     },
     __self: this
   }), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -4207,7 +4246,7 @@ var Home = function Home() {
     headline: "Work Experience",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 26
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4217,7 +4256,7 @@ var Home = function Home() {
     date: "03.2019 - current",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 27
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4227,7 +4266,7 @@ var Home = function Home() {
     date: "11.2017 - 03.2019",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 34
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4237,17 +4276,17 @@ var Home = function Home() {
     date: "07.2017 - 10.2017",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 42
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Working Student",
     institution: "makandra",
     description: "Maintained a lot of Rails projects, often LTS work on old versions of ruby/rails. Worked on applications for internal use as well as directly with the customer.",
-    date: "07.2014 - 10.2014",
+    date: "01.2017 - 11.2017",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 50
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4257,7 +4296,7 @@ var Home = function Home() {
     date: "01.2017 - 11.2017",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 58
     },
     __self: this
   })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -4265,7 +4304,7 @@ var Home = function Home() {
     headline: "Education",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 67
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4275,7 +4314,7 @@ var Home = function Home() {
     date: "10.2014 - 03.2019",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 68
     },
     __self: this
   })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -4284,101 +4323,118 @@ var Home = function Home() {
     description: "I try to learn new things whenever I can. In my current team, we often provide packages for other teams which makes it essential for me to know all the used libraries in detail.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 76
     },
     __self: this
-  }, __jsx("ul", {
-    className: "row list-unstyled",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, "React"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, "Redux"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }, "NodeJS"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  }, "GraphQl"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 83
     },
     __self: this
-  }, "rabbitMQ"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 84
     },
     __self: this
-  }, "MongoDB"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, "Ansible"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 85
     },
     __self: this
-  }, "Docker"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 86
     },
     __self: this
-  }, "Ansible"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 87
     },
     __self: this
-  }, "Jest"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 88
     },
     __self: this
-  }, "Babel"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, "Kubernetes"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 89
     },
     __self: this
-  }, "Webpack"), __jsx("li", {
-    className: "col-sm-3 col-6 pb-3",
+  }, "Test Driven Development"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 90
     },
     __self: this
-  }, "Storybook")))];
+  }, "rabbitMQ"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "Unit Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }, "Integration Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }, "redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, "JavaScript"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, "Scrum"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, "Agile"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, "Microservices"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }, "Requirements Engineering"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, "Requirements Analysis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, "Software Architecture")))];
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
