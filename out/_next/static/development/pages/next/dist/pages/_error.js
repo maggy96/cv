@@ -1,223 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
-
-/***/ "./components/Event.jsx":
-/*!******************************!*\
-  !*** ./components/Event.jsx ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proptypes */ "./node_modules/proptypes/index.js");
-/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proptypes__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/magnus/code/resume/components/Event.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var Event = function Event(_ref) {
-  var title = _ref.title,
-      institution = _ref.institution,
-      description = _ref.description,
-      date = _ref.date;
-  return __jsx("div", {
-    className: "row pb-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-md-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, title, ' ', "@", ' ', __jsx("span", {
-    className: "font-weight-bold",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, institution)), __jsx("p", {
-    className: "float-left text-muted",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, description)), __jsx("div", {
-    className: "col-md-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "float-right",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, date)), __jsx("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }));
-};
-
-Event.propTypes = {
-  title: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  institution: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  description: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  date: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
-};
-/* harmony default export */ __webpack_exports__["default"] = (Event);
-
-/***/ }),
-
-/***/ "./components/Section.jsx":
-/*!********************************!*\
-  !*** ./components/Section.jsx ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proptypes */ "./node_modules/proptypes/index.js");
-/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proptypes__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Section.scss */ "./components/Section.scss");
-/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Section_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/magnus/code/resume/components/Section.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-var Section = function Section(_ref) {
-  var headline = _ref.headline,
-      description = _ref.description,
-      number = _ref.number,
-      children = _ref.children;
-  return __jsx("div", {
-    className: "container py-5 section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-sm-1 col-md-2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "display-2 d-none d-lg-block",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, number)), __jsx("div", {
-    className: "col-sm-10 col-md-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "display-4 pt-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, headline), __jsx("p", {
-    className: "py-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, description), children)));
-};
-
-Section.propTypes = {
-  headline: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  description: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  number: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  children: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node), proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node])
-};
-Section.defaultProps = {
-  children: null,
-  description: null
-};
-/* harmony default export */ __webpack_exports__["default"] = (Section);
-
-/***/ }),
-
-/***/ "./components/Skill.jsx":
-/*!******************************!*\
-  !*** ./components/Skill.jsx ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proptypes */ "./node_modules/proptypes/index.js");
-/* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proptypes__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/magnus/code/resume/components/Skill.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var Skill = function Skill(_ref) {
-  var children = _ref.children;
-  return __jsx("span", {
-    className: "badge badge-pill badge-light m-1 p-2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, children);
-};
-
-Skill.propTypes = {
-  children: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node), proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node]).isRequired
-};
-/* harmony default export */ __webpack_exports__["default"] = (Skill);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/next/dist/pages/_error.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
@@ -467,6 +248,23 @@ function _inherits(subClass, superClass) {
 }
 
 module.exports = _inherits;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    "default": obj
+  };
+}
+
+module.exports = _interopRequireDefault;
 
 /***/ }),
 
@@ -3711,21 +3509,33 @@ exports["default"] = function () {
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fpages%2Findex.jsx!./":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fpages%2Findex.jsx ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/next-server/head.js":
+/*!******************************************!*\
+  !*** ./node_modules/next-server/head.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next-server/dist/lib/head.js")
+
+
+/***/ }),
+
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \***************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.jsx */ "./pages/index.jsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/next/dist/pages/_error", function() {
+      var page = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.jsx */ "./pages/index.jsx", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.jsx */ "./pages/index.jsx")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js", function() {
+          if(!next.router.components["/next/dist/pages/_error"]) return
+          var updatedPage = __webpack_require__(/*! ./node_modules/next/dist/pages/_error.js */ "./node_modules/next/dist/pages/_error.js")
+          next.router.update("/next/dist/pages/_error", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -3734,443 +3544,129 @@ exports["default"] = function () {
 
 /***/ }),
 
-/***/ "./node_modules/proptypes/index.js":
-/*!*****************************************!*\
-  !*** ./node_modules/proptypes/index.js ***!
-  \*****************************************/
+/***/ "./node_modules/next/dist/pages/_error.js":
+/*!************************************************!*\
+  !*** ./node_modules/next/dist/pages/_error.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;(function (global, factory) {
-  if (true) {
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [exports], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
-				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
-				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-  } else { var mod; }
-})(this, function (exports) {
-  /**
-   * Copyright 2013-2015, Facebook, Inc.
-   * All rights reserved.
-   *
-   * This source code is licensed under the BSD-style license found in the
-   * LICENSE file in the root directory of this source tree. An additional grant
-   * of patent rights can be found in the PATENTS file in the same directory.
-   *
-   * @providesModule ReactPropTypes
-   */
+"use strict";
 
-  'use strict';
 
-  // The Symbol used to tag the ReactElement type. If there is no native Symbol
-  // nor polyfill, then a plain number is used for performance.
+var _classCallCheck = __webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js");
 
-  exports.__esModule = true;
+var _createClass = __webpack_require__(/*! @babel/runtime-corejs2/helpers/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/createClass.js");
 
-  var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
-    return typeof obj;
-  } : function (obj) {
-    return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-  };
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime-corejs2/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js");
 
-  var REACT_ELEMENT_TYPE = typeof Symbol === 'function' && Symbol.for && Symbol.for('react.element') || 0xeac7;
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime-corejs2/helpers/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js");
 
-  var ReactElement = {};
+var _inherits = __webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js");
 
-  /**
-   * @param {?object} object
-   * @return {boolean} True if `object` is a valid component.
-   * @final
-   */
-  ReactElement.isValidElement = function (object) {
-    return (typeof object === 'undefined' ? 'undefined' : _typeof(object)) === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
-  };
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
-  var ReactPropTypeLocationNames = {
-    prop: 'prop',
-    context: 'context',
-    childContext: 'child context'
-  };
+exports.__esModule = true;
+exports["default"] = void 0;
 
-  var emptyFunction = {
-    thatReturns: function thatReturns(what) {
-      return function () {
-        return what;
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _head = _interopRequireDefault(__webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js"));
+
+var statusCodes = {
+  400: 'Bad Request',
+  404: 'This page could not be found',
+  405: 'Method Not Allowed',
+  500: 'Internal Server Error'
+};
+/**
+* `Error` component used for handling errors.
+*/
+
+var Error =
+/*#__PURE__*/
+function (_react$default$Compon) {
+  _inherits(Error, _react$default$Compon);
+
+  function Error() {
+    _classCallCheck(this, Error);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Error).apply(this, arguments));
+  }
+
+  _createClass(Error, [{
+    key: "render",
+    value: function render() {
+      var statusCode = this.props.statusCode;
+      var title = this.props.title || statusCodes[statusCode] || 'An unexpected error has occurred';
+      return _react["default"].createElement("div", {
+        style: styles.error
+      }, _react["default"].createElement(_head["default"], null, _react["default"].createElement("title", null, statusCode, ": ", title)), _react["default"].createElement("div", null, _react["default"].createElement("style", {
+        dangerouslySetInnerHTML: {
+          __html: 'body { margin: 0 }'
+        }
+      }), statusCode ? _react["default"].createElement("h1", {
+        style: styles.h1
+      }, statusCode) : null, _react["default"].createElement("div", {
+        style: styles.desc
+      }, _react["default"].createElement("h2", {
+        style: styles.h2
+      }, title, "."))));
+    }
+  }], [{
+    key: "getInitialProps",
+    value: function getInitialProps(_ref) {
+      var res = _ref.res,
+          err = _ref.err;
+      var statusCode = res && res.statusCode ? res.statusCode : err ? err.statusCode : 404;
+      return {
+        statusCode: statusCode
       };
     }
-  };
+  }]);
 
-  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
-  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
-  function getIteratorFn(maybeIterable) {
-    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
-    if (typeof iteratorFn === 'function') {
-      return iteratorFn;
-    }
+  return Error;
+}(_react["default"].Component);
+
+exports["default"] = Error;
+Error.displayName = 'ErrorPage';
+var styles = {
+  error: {
+    color: '#000',
+    background: '#fff',
+    fontFamily: '-apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Fira Sans", Avenir, "Helvetica Neue", "Lucida Grande", sans-serif',
+    height: '100vh',
+    textAlign: 'center',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  desc: {
+    display: 'inline-block',
+    textAlign: 'left',
+    lineHeight: '49px',
+    height: '49px',
+    verticalAlign: 'middle'
+  },
+  h1: {
+    display: 'inline-block',
+    borderRight: '1px solid rgba(0, 0, 0,.3)',
+    margin: 0,
+    marginRight: '20px',
+    padding: '10px 23px 10px 0',
+    fontSize: '24px',
+    fontWeight: 500,
+    verticalAlign: 'top'
+  },
+  h2: {
+    fontSize: '14px',
+    fontWeight: 'normal',
+    lineHeight: 'inherit',
+    margin: 0,
+    padding: 0
   }
-
-  /**
-   * Collection of methods that allow declaration and validation of props that are
-   * supplied to React components. Example usage:
-   *
-   *   var Props = require('ReactPropTypes');
-   *   var MyArticle = React.createClass({
-   *     propTypes: {
-   *       // An optional string prop named "description".
-   *       description: Props.string,
-   *
-   *       // A required enum prop named "category".
-   *       category: Props.oneOf(['News','Photos']).isRequired,
-   *
-   *       // A prop named "dialog" that requires an instance of Dialog.
-   *       dialog: Props.instanceOf(Dialog).isRequired
-   *     },
-   *     render: function() { ... }
-   *   });
-   *
-   * A more formal specification of how these methods are used:
-   *
-   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
-   *   decl := ReactPropTypes.{type}(.isRequired)?
-   *
-   * Each and every declaration produces a function with the same signature. This
-   * allows the creation of custom validation functions. For example:
-   *
-   *  var MyLink = React.createClass({
-   *    propTypes: {
-   *      // An optional string or URI prop named "href".
-   *      href: function(props, propName, componentName) {
-   *        var propValue = props[propName];
-   *        if (propValue != null && typeof propValue !== 'string' &&
-   *            !(propValue instanceof URI)) {
-   *          return new Error(
-   *            'Expected a string or an URI for ' + propName + ' in ' +
-   *            componentName
-   *          );
-   *        }
-   *      }
-   *    },
-   *    render: function() {...}
-   *  });
-   *
-   * @internal
-   */
-
-  var ANONYMOUS = '<<anonymous>>';
-
-  var ReactPropTypes = {
-    array: createPrimitiveTypeChecker('array'),
-    bool: createPrimitiveTypeChecker('boolean'),
-    func: createPrimitiveTypeChecker('function'),
-    number: createPrimitiveTypeChecker('number'),
-    object: createPrimitiveTypeChecker('object'),
-    string: createPrimitiveTypeChecker('string'),
-    symbol: createPrimitiveTypeChecker('symbol'),
-
-    any: createAnyTypeChecker(),
-    arrayOf: createArrayOfTypeChecker,
-    element: createElementTypeChecker(),
-    instanceOf: createInstanceTypeChecker,
-    node: createNodeChecker(),
-    objectOf: createObjectOfTypeChecker,
-    oneOf: createEnumTypeChecker,
-    oneOfType: createUnionTypeChecker,
-    shape: createShapeTypeChecker
-  };
-
-  function createChainableTypeChecker(validate) {
-    function checkType(isRequired, props, propName, componentName, location, propFullName) {
-      componentName = componentName || ANONYMOUS;
-      propFullName = propFullName || propName;
-      if (props[propName] == null) {
-        var locationName = ReactPropTypeLocationNames[location];
-        if (isRequired) {
-          return new Error('Required ' + locationName + ' `' + propFullName + '` was not specified in ' + ('`' + componentName + '`.'));
-        }
-        return null;
-      } else {
-        return validate(props, propName, componentName, location, propFullName);
-      }
-    }
-
-    var chainedCheckType = checkType.bind(null, false);
-    chainedCheckType.isRequired = checkType.bind(null, true);
-
-    return chainedCheckType;
-  }
-
-  function createPrimitiveTypeChecker(expectedType) {
-    function validate(props, propName, componentName, location, propFullName) {
-      var propValue = props[propName];
-      var propType = getPropType(propValue);
-      if (propType !== expectedType) {
-        var locationName = ReactPropTypeLocationNames[location];
-        // `propValue` being instance of, say, date/regexp, pass the 'object'
-        // check, but we can offer a more precise error message here rather than
-        // 'of type `object`'.
-        var preciseType = getPreciseType(propValue);
-
-        return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
-      }
-      return null;
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createAnyTypeChecker() {
-    return createChainableTypeChecker(emptyFunction.thatReturns(null));
-  }
-
-  function createArrayOfTypeChecker(typeChecker) {
-    function validate(props, propName, componentName, location, propFullName) {
-      var propValue = props[propName];
-      if (!Array.isArray(propValue)) {
-        var locationName = ReactPropTypeLocationNames[location];
-        var propType = getPropType(propValue);
-        return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
-      }
-      for (var i = 0; i < propValue.length; i++) {
-        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']');
-        if (error instanceof Error) {
-          return error;
-        }
-      }
-      return null;
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createElementTypeChecker() {
-    function validate(props, propName, componentName, location, propFullName) {
-      if (!ReactElement.isValidElement(props[propName])) {
-        var locationName = ReactPropTypeLocationNames[location];
-        return new Error('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a single ReactElement.'));
-      }
-      return null;
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createInstanceTypeChecker(expectedClass) {
-    function validate(props, propName, componentName, location, propFullName) {
-      if (!(props[propName] instanceof expectedClass)) {
-        var locationName = ReactPropTypeLocationNames[location];
-        var expectedClassName = expectedClass.name || ANONYMOUS;
-        var actualClassName = getClassName(props[propName]);
-        return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
-      }
-      return null;
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createEnumTypeChecker(expectedValues) {
-    if (!Array.isArray(expectedValues)) {
-      return createChainableTypeChecker(function () {
-        return new Error('Invalid argument supplied to oneOf, expected an instance of array.');
-      });
-    }
-
-    function validate(props, propName, componentName, location, propFullName) {
-      var propValue = props[propName];
-      for (var i = 0; i < expectedValues.length; i++) {
-        if (propValue === expectedValues[i]) {
-          return null;
-        }
-      }
-
-      var locationName = ReactPropTypeLocationNames[location];
-      var valuesString = JSON.stringify(expectedValues);
-      return new Error('Invalid ' + locationName + ' `' + propFullName + '` of value `' + propValue + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createObjectOfTypeChecker(typeChecker) {
-    function validate(props, propName, componentName, location, propFullName) {
-      var propValue = props[propName];
-      var propType = getPropType(propValue);
-      if (propType !== 'object') {
-        var locationName = ReactPropTypeLocationNames[location];
-        return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
-      }
-      for (var key in propValue) {
-        if (propValue.hasOwnProperty(key)) {
-          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key);
-          if (error instanceof Error) {
-            return error;
-          }
-        }
-      }
-      return null;
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createUnionTypeChecker(arrayOfTypeCheckers) {
-    if (!Array.isArray(arrayOfTypeCheckers)) {
-      return createChainableTypeChecker(function () {
-        return new Error('Invalid argument supplied to oneOfType, expected an instance of array.');
-      });
-    }
-
-    function validate(props, propName, componentName, location, propFullName) {
-      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
-        var checker = arrayOfTypeCheckers[i];
-        if (checker(props, propName, componentName, location, propFullName) == null) {
-          return null;
-        }
-      }
-
-      var locationName = ReactPropTypeLocationNames[location];
-      return new Error('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createNodeChecker() {
-    function validate(props, propName, componentName, location, propFullName) {
-      if (!isNode(props[propName])) {
-        var locationName = ReactPropTypeLocationNames[location];
-        return new Error('Invalid ' + locationName + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
-      }
-      return null;
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function createShapeTypeChecker(shapeTypes) {
-    function validate(props, propName, componentName, location, propFullName) {
-      var propValue = props[propName];
-      var propType = getPropType(propValue);
-      if (propType !== 'object') {
-        var locationName = ReactPropTypeLocationNames[location];
-        return new Error('Invalid ' + locationName + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
-      }
-      for (var key in shapeTypes) {
-        var checker = shapeTypes[key];
-        if (!checker) {
-          continue;
-        }
-        var error = checker(propValue, key, componentName, location, propFullName + '.' + key);
-        if (error) {
-          return error;
-        }
-      }
-      return null;
-    }
-    return createChainableTypeChecker(validate);
-  }
-
-  function isNode(propValue) {
-    switch (typeof propValue === 'undefined' ? 'undefined' : _typeof(propValue)) {
-      case 'number':
-      case 'string':
-      case 'undefined':
-        return true;
-      case 'boolean':
-        return !propValue;
-      case 'object':
-        if (Array.isArray(propValue)) {
-          return propValue.every(isNode);
-        }
-        if (propValue === null || ReactElement.isValidElement(propValue)) {
-          return true;
-        }
-
-        var iteratorFn = getIteratorFn(propValue);
-        if (iteratorFn) {
-          var iterator = iteratorFn.call(propValue);
-          var step;
-          if (iteratorFn !== propValue.entries) {
-            while (!(step = iterator.next()).done) {
-              if (!isNode(step.value)) {
-                return false;
-              }
-            }
-          } else {
-            // Iterator will provide entry [k,v] tuples rather than values.
-            while (!(step = iterator.next()).done) {
-              var entry = step.value;
-              if (entry) {
-                if (!isNode(entry[1])) {
-                  return false;
-                }
-              }
-            }
-          }
-        } else {
-          return false;
-        }
-
-        return true;
-      default:
-        return false;
-    }
-  }
-
-  function isSymbol(propType, propValue) {
-    // Native Symbol.
-    if (propType === 'symbol') {
-      return true;
-    }
-
-    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
-    if (propValue['@@toStringTag'] === 'Symbol') {
-      return true;
-    }
-
-    // Fallback for non-spec compliant Symbols which are polyfilled.
-    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
-      return true;
-    }
-
-    return false;
-  }
-
-  // Equivalent of `typeof` but with special handling for array and regexp.
-  function getPropType(propValue) {
-    var propType = typeof propValue === 'undefined' ? 'undefined' : _typeof(propValue);
-    if (Array.isArray(propValue)) {
-      return 'array';
-    }
-    if (propValue instanceof RegExp) {
-      // Old webkits (at least until Android 4.0) return 'function' rather than
-      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
-      // passes PropTypes.object.
-      return 'object';
-    }
-    if (isSymbol(propType, propValue)) {
-      return 'symbol';
-    }
-    return propType;
-  }
-
-  // This handles more types than `getPropType`. Only used for error messages.
-  // See `createPrimitiveTypeChecker`.
-  function getPreciseType(propValue) {
-    var propType = getPropType(propValue);
-    if (propType === 'object') {
-      if (propValue instanceof Date) {
-        return 'date';
-      } else if (propValue instanceof RegExp) {
-        return 'regexp';
-      }
-    }
-    return propType;
-  }
-
-  // Returns class name of the object, if any.
-  function getClassName(propValue) {
-    if (!propValue.constructor || !propValue.constructor.name) {
-      return ANONYMOUS;
-    }
-    return propValue.constructor.name;
-  }
-
-  exports.default = ReactPropTypes;
-});
-//# sourceMappingURL=index.js.map
+};
 
 /***/ }),
 
@@ -4185,260 +3681,14 @@ module.exports = (__webpack_require__(/*! dll-reference dll_01f9a3fa864a7b7414d8
 
 /***/ }),
 
-/***/ "./pages/index.jsx":
-/*!*************************!*\
-  !*** ./pages/index.jsx ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Event__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Event */ "./components/Event.jsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Section */ "./components/Section.jsx");
-/* harmony import */ var _components_Skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Skill */ "./components/Skill.jsx");
-var _jsxFileName = "/Users/magnus/code/resume/pages/index.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-
-
-
-var Home = function Home() {
-  return [__jsx(next_head__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "Magnus G\xF6rlitz"), __jsx("link", {
-    rel: "stylesheet",
-    href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
-    integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
-    crossOrigin: "anonymous",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "01",
-    headline: "Magnus G\xF6rlitz",
-    description: "I'm an experienced full-stack engineer, specialized in the React/NodeJS stack. I'm a big fan of agile practices and good teamwork. In my opinion, there's nothing more beautiful than a clean and minimal codebase. In my experience, one of the biggest challenges in growing teams is keeping things up to date and technical debt at bay.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "02",
-    headline: "Work Experience",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Software Engineer",
-    institution: "CHECK24",
-    description: "Working as part of an agile development team on dockerized NodeJS microservices with MongoDB in the backend, React and Redux in the frontend. Also did my bachelors thesis on integrating a message oriented middleware into the existing codebase.",
-    date: "11.2017 - current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Software Engineer",
-    institution: "XING",
-    description: "Worked with React and Redux in an agile team of ~15 people and launched a new product which quickly gained huge traction thanks to lean startup practices.",
-    date: "07.2017 - 10.2017",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Working Student",
-    institution: "makandra",
-    description: "Maintained a lot of Rails projects, often LTS work on old versions of ruby/rails. Worked on applications for internal use as well as directly with the customer.",
-    date: "01.2017 - 11.2017",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Intern",
-    institution: "Autumn",
-    description: "Worked in an agile team directly with the founders on a product disrupting the online market with AI. Company later on got funding from Axel Springer Plug&Play Accelerator.",
-    date: "01.2017 - 11.2017",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "03",
-    headline: "Education",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "B.Sc., Computer Science",
-    institution: "University of Augsburg",
-    description: "Focus of studies: Multimedia/Distributed Systems. Thesis title: 'Comparison of Message Oriented Middlewares'",
-    date: "10.2014 - 03.2019",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "04",
-    headline: "Skills",
-    description: "I try to learn new things whenever I can. In my current team, we often provide packages for other teams which makes it essential for me to know all the used libraries in detail.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77
-    },
-    __self: this
-  }, __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, "Ansible"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 79
-    },
-    __self: this
-  }, "React"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80
-    },
-    __self: this
-  }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81
-    },
-    __self: this
-  }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82
-    },
-    __self: this
-  }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 83
-    },
-    __self: this
-  }, "Webpack"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 84
-    },
-    __self: this
-  }, "Jest"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85
-    },
-    __self: this
-  }, "Test Driven Development"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 86
-    },
-    __self: this
-  }, "Express.js"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87
-    },
-    __self: this
-  }, "rabbitMQ"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88
-    },
-    __self: this
-  }, "Unit Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89
-    },
-    __self: this
-  }, "Babel"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 90
-    },
-    __self: this
-  }, "Redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91
-    },
-    __self: this
-  }, "NodeJS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92
-    },
-    __self: this
-  }, "Storybook"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93
-    },
-    __self: this
-  }, "Agile"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, "Microservices")))];
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Home);
-
-/***/ }),
-
-/***/ 0:
-/*!**********************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fpages%2Findex.jsx ***!
-  \**********************************************************************************************************************/
+/***/ 2:
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
+  \*******************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fpages%2Findex.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fpages%2Findex.jsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fmagnus%2Fcode%2Fresume%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js!./");
 
 
 /***/ }),
@@ -4454,5 +3704,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=index.js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=_error.js.map

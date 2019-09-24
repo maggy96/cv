@@ -27,17 +27,11 @@ const Home = () => [
     <Event
       title="Software Engineer"
       institution="CHECK24"
-      description="Working on dockerized NodeJS microservices with MongoDB in
-      the backend, React & Redux in the frontend."
-      date="03.2019 - current"
-    />
-    <Event
-      title="Working Student"
-      institution="CHECK24"
-      description="Worked as part of an agile development team with react &
-      redux, nodejs, mongodb. Also did my bachelors thesis on integrating a
-      message oriented middleware into the existing codebase."
-      date="11.2017 - 03.2019"
+      description="Working as part of an agile development team on dockerized NodeJS
+      microservices with MongoDB in the backend, React and Redux in the frontend.
+      Also did my bachelors thesis on integrating a message oriented middleware into
+      the existing codebase."
+      date="11.2017 - current"
     />
     <Event
       title="Software Engineer"
@@ -87,12 +81,13 @@ const Home = () => [
       <Skill>Redux</Skill>
       <Skill>Docker</Skill>
       <Skill>Webpack</Skill>
+      <Skill>Jest</Skill>
       <Skill>Test Driven Development</Skill>
       <Skill>Express.js</Skill>
       <Skill>rabbitMQ</Skill>
       <Skill>Unit Testing</Skill>
       <Skill>Babel</Skill>
-      <Skill>redis</Skill>
+      <Skill>Redis</Skill>
       <Skill>NodeJS</Skill>
       <Skill>Storybook</Skill>
       <Skill>Agile</Skill>

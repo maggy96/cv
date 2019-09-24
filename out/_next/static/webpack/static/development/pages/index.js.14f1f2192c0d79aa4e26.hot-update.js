@@ -67,21 +67,11 @@ var Home = function Home() {
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
     title: "Software Engineer",
     institution: "CHECK24",
-    description: "Working on dockerized NodeJS microservices with MongoDB in the backend, React & Redux in the frontend.",
-    date: "03.2019 - current",
+    description: "Working as part of an agile development team on dockerized NodeJS microservices with MongoDB in the backend, React and Redux in the frontend. Also did my bachelors thesis on integrating a message oriented middleware into the existing codebase.",
+    date: "11.2017 - current",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
-    },
-    __self: this
-  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Working Student",
-    institution: "CHECK24",
-    description: "Worked as part of an agile development team with react & redux, nodejs, mongodb. Also did my bachelors thesis on integrating a message oriented middleware into the existing codebase.",
-    date: "11.2017 - 03.2019",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -91,7 +81,7 @@ var Home = function Home() {
     date: "07.2017 - 10.2017",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 36
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -101,7 +91,7 @@ var Home = function Home() {
     date: "01.2017 - 11.2017",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 44
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -111,7 +101,7 @@ var Home = function Home() {
     date: "01.2017 - 11.2017",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 52
     },
     __self: this
   })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -119,7 +109,7 @@ var Home = function Home() {
     headline: "Education",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 61
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -129,7 +119,7 @@ var Home = function Home() {
     date: "10.2014 - 03.2019",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 62
     },
     __self: this
   })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -138,109 +128,109 @@ var Home = function Home() {
     description: "I try to learn new things whenever I can. In my current team, we often provide packages for other teams which makes it essential for me to know all the used libraries in detail.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 70
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 77
     },
     __self: this
   }, __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 78
     },
     __self: this
   }, "Ansible"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 79
     },
     __self: this
   }, "React"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 80
     },
     __self: this
   }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 81
     },
     __self: this
   }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 82
     },
     __self: this
   }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 83
     },
     __self: this
   }, "Webpack"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 84
     },
     __self: this
   }, "Test Driven Development"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 85
     },
     __self: this
   }, "Express.js"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 86
     },
     __self: this
   }, "rabbitMQ"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 87
     },
     __self: this
   }, "Unit Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 88
     },
     __self: this
   }, "Babel"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 89
     },
     __self: this
   }, "redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 90
     },
     __self: this
   }, "NodeJS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 91
     },
     __self: this
   }, "Storybook"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 92
     },
     __self: this
   }, "Agile"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 93
     },
     __self: this
   }, "Microservices")))];
@@ -251,4 +241,4 @@ var Home = function Home() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.c9576474ed59389dd7f6.hot-update.js.map
+//# sourceMappingURL=index.js.14f1f2192c0d79aa4e26.hot-update.js.map
