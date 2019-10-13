@@ -91,6 +91,7 @@ const Home = () => [
       <Skill>NodeJS</Skill>
       <Skill>Storybook</Skill>
       <Skill>Agile</Skill>
+      <Skill>TypeScript</Skill>
       <Skill>Microservices</Skill>
     </div>
   </Section>,
