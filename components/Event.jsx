@@ -2,7 +2,11 @@ import React from 'react';
 import PropTypes from 'proptypes';
 
 const Event = ({
-  title, institution, description, date,
+  date,
+  description,
+  institution,
+  location,
+  title,
 }) => (
   <div className="row pb-5">
     <div className="col-md-8">
@@ -16,7 +20,10 @@ const Event = ({
       <p className="float-left text-muted">{description}</p>
     </div>
     <div className="col-md-4">
-      <p className="float-right">{date}</p>
+      <span className="float-right">
+        <p>{date}</p>
+        <p className="text-muted">{location}</p>
+      </span>
     </div>
     <br />
   </div>
@@ -27,6 +34,7 @@ Event.propTypes = {
   institution: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
 };
 
 export default Event;

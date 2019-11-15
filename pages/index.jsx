@@ -32,6 +32,7 @@ const Home = () => [
       Also did my bachelors thesis on integrating a message oriented middleware into
       the existing codebase."
       date="11.2017 - current"
+      location="Munich, DE"
     />
     <Event
       title="Software Engineer"
@@ -40,6 +41,7 @@ const Home = () => [
       and launched a new product which quickly gained huge traction thanks to
       lean startup practices."
       date="07.2017 - 10.2017"
+      location="Hamburg, DE"
     />
     <Event
       title="Working Student"
@@ -48,6 +50,7 @@ const Home = () => [
       versions of ruby/rails. Worked on applications for internal use as well as
       directly with the customer."
       date="01.2017 - 11.2017"
+      location="Augsburg, DE"
     />
     <Event
       title="Intern"
@@ -56,6 +59,7 @@ const Home = () => [
       product disrupting the online market with AI. Company later on got funding
       from Axel Springer Plug&Play Accelerator."
       date="01.2017 - 11.2017"
+      location="Berlin, DE"
     />
   </Section>,
   <Section number="03" headline="Education">
@@ -65,6 +69,7 @@ const Home = () => [
       description="Focus of studies: Multimedia/Distributed Systems.
       Thesis title: 'Comparison of Message Oriented Middlewares'"
       date="10.2014 - 03.2019"
+      location="Augsburg, DE"
     />
   </Section>,
   <Section
