@@ -10,19 +10,19 @@ const Event = ({
 }) => (
   <div className="row pb-5">
     <div className="col-md-8">
-      <p>
+      <p className="mb-0 --blue">
         {title}
         {' '}
         @
         {' '}
-        <span className="font-weight-bold">{institution}</span>
+        <span className="font-weight-bold text-highlight">{institution}</span>
       </p>
+      <p className="right text-muted">{location}</p>
       <p className="float-left text-muted">{description}</p>
     </div>
     <div className="col-md-4">
       <span className="float-right">
         <p>{date}</p>
-        <p className="text-muted">{location}</p>
       </span>
     </div>
     <br />

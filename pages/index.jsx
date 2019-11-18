@@ -18,12 +18,21 @@ const Home = () => [
     number="01"
     headline="Magnus Görlitz"
     description="I'm an experienced full-stack engineer, specialized in the
-    React/NodeJS stack. I'm a big fan of agile practices and good teamwork.
-    In my opinion, there's nothing more beautiful than a clean and minimal codebase.
-    In my experience, one of the biggest challenges in growing teams is keeping
-    things up to date and technical debt at bay."
+    MERN stack. I strongly believe in agile practices and good teamwork.
+    I'm passionate about clean and minimal code, growth and learning."
   />,
   <Section number="02" headline="Work Experience">
+    <Event
+      title="Software Engineer"
+      institution="Klarna"
+      description="Working in a small highly collaborative Agile team, having
+      clear mission and ownership of an important outcome that supports Klarna
+      and their customers. Optimization for quality, flow, fast feedback and time
+      to market. Focus on end-to-end ownership, continuous improvement, testing,
+      monitoring and experimentation."
+      date="01.2020 - current"
+      location="Stockholm, SE"
+    />
     <Event
       title="Software Engineer"
       institution="CHECK24"
@@ -31,11 +40,11 @@ const Home = () => [
       microservices with MongoDB in the backend, React and Redux in the frontend.
       Also did my bachelors thesis on integrating a message oriented middleware into
       the existing codebase."
-      date="11.2017 - current"
+      date="11.2017 - 01.2020"
       location="Munich, DE"
     />
     <Event
-      title="Software Engineer"
+      title="Intern"
       institution="XING"
       description="Worked with React and Redux in an agile team of ~15 people
       and launched a new product which quickly gained huge traction thanks to
@@ -66,8 +75,8 @@ const Home = () => [
     <Event
       title="B.Sc., Computer Science"
       institution="University of Augsburg"
-      description="Focus of studies: Multimedia/Distributed Systems.
-      Thesis title: 'Comparison of Message Oriented Middlewares'"
+      description="Focus of studies in Multimedia/Distributed Systems.
+      Title of thesis: 'Comparison of Message Oriented Middlewares'"
       date="10.2014 - 03.2019"
       location="Augsburg, DE"
     />
