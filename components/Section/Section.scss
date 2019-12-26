@@ -1,0 +1,9 @@
+.text-highlight {
+  color: #FF206E;
+}
+
+@media print {
+  .text-highlight {
+    color: #000;
+  }
+}

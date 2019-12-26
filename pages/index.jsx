@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import Event from '../components/Event';
-import Section from '../components/Section';
+import Section from '../components/Section/Section';
 import Skill from '../components/Skill';
 
 const Home = () => [
@@ -14,20 +14,43 @@ const Home = () => [
       crossOrigin="anonymous"
     />
   </Head>,
-  <Section
-    number="01"
-    headline="Magnus Görlitz"
-    description="I'm an experienced full-stack engineer, specialized in the
-    MERN stack. I strongly believe in agile practices and good teamwork.
-    I'm passionate about clean and minimal code, growth and learning."
-  />,
-  <Section number="02" headline="Work Experience">
+  <Section headline="Magnus Görlitz" >
+    <div>
+      <p>I'm a <b className="text-highlight">software engineer</b>, currently
+      specialized in the MERN stack. I strongly believe in agile practices and
+      good teamwork. I'm passionate about growth and learning and about
+      empowering awesome products to lead the market.</p>
+      <Skill>Ansible</Skill>
+      <Skill>React</Skill>
+      <Skill>GraphQL</Skill>
+      <Skill>MongoDB</Skill>
+      <Skill>Redux</Skill>
+      <Skill>Docker</Skill>
+      <Skill>Webpack</Skill>
+      <Skill>Jest</Skill>
+      <Skill>Test Driven Development</Skill>
+      <Skill>Koa.js</Skill>
+      <Skill>rabbitMQ</Skill>
+      <Skill>Kubernetes</Skill>
+      <Skill>Unit Testing</Skill>
+      <Skill>Babel</Skill>
+      <Skill>Redis</Skill>
+      <Skill>NodeJS</Skill>
+      <Skill>Storybook</Skill>
+      <Skill>Agile</Skill>
+      <Skill>TypeScript</Skill>
+      <Skill>Microservices</Skill>
+      <Skill>Grafana & Prometheus</Skill>
+    </div>
+  </Section>,
+  <Section headline="Work Experience">
     <Event
-      title="Software Engineer"
+      title="Engineer"
       institution="Klarna"
-      description="Working in a small highly collaborative Agile team, having
-      clear mission and ownership of an important outcome that supports Klarna
-      and their customers. Optimization for quality, flow, fast feedback and time
+      description="Kicking off a new B2B-focused product team in the Consumer
+      Services Domain, responsible for login, registration and step-up flows
+      that are secure, compliant and best in class experiences.
+      Optimization for quality, flow, fast feedback and time
       to market. Focus on end-to-end ownership, continuous improvement, testing,
       monitoring and experimentation."
       date="01.2020 - current"
@@ -46,68 +69,23 @@ const Home = () => [
     <Event
       title="Intern"
       institution="XING"
-      description="Worked with React and Redux in an agile team of ~15 people
-      and launched a new product which quickly gained huge traction thanks to
-      lean startup practices."
+      description="Worked with React and Redux in an agile team and launched a
+      new B2B product which quickly gained huge traction thanks to lean startup
+      practices. Completed intense methodology and soft skill trainings."
       date="07.2017 - 10.2017"
       location="Hamburg, DE"
     />
-    <Event
-      title="Working Student"
-      institution="makandra"
-      description="Maintained a lot of Rails projects, often LTS work on old
-      versions of ruby/rails. Worked on applications for internal use as well as
-      directly with the customer."
-      date="01.2017 - 11.2017"
-      location="Augsburg, DE"
-    />
-    <Event
-      title="Intern"
-      institution="Autumn"
-      description="Worked in an agile team directly with the founders on a
-      product disrupting the online market with AI. Company later on got funding
-      from Axel Springer Plug&Play Accelerator."
-      date="01.2017 - 11.2017"
-      location="Berlin, DE"
-    />
   </Section>,
-  <Section number="03" headline="Education">
+  <Section headline="Education">
     <Event
       title="B.Sc., Computer Science"
       institution="University of Augsburg"
-      description="Focus of studies in Multimedia/Distributed Systems.
-      Title of thesis: 'Comparison of Message Oriented Middlewares'"
-      date="10.2014 - 03.2019"
+      description="Major in Multimedia. Thesis submitted to chair
+      of Software Methodologies for Distributed Systems, title: 'Comparison of
+      current implementations of Message Oriented Middlewares'"
+      date="10.2014 - 02.2019"
       location="Augsburg, DE"
     />
-  </Section>,
-  <Section
-    number="04"
-    headline="Skills"
-    description="I try to learn new things whenever I can. In my current team,
-    we often provide packages for other teams which makes it essential for me to
-    know all the used libraries in detail."
-  >
-    <div>
-      <Skill>Ansible</Skill>
-      <Skill>React</Skill>
-      <Skill>MongoDB</Skill>
-      <Skill>Redux</Skill>
-      <Skill>Docker</Skill>
-      <Skill>Webpack</Skill>
-      <Skill>Jest</Skill>
-      <Skill>Test Driven Development</Skill>
-      <Skill>Express.js</Skill>
-      <Skill>rabbitMQ</Skill>
-      <Skill>Unit Testing</Skill>
-      <Skill>Babel</Skill>
-      <Skill>Redis</Skill>
-      <Skill>NodeJS</Skill>
-      <Skill>Storybook</Skill>
-      <Skill>Agile</Skill>
-      <Skill>TypeScript</Skill>
-      <Skill>Microservices</Skill>
-    </div>
   </Section>,
 ];
 
