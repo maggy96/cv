@@ -75,6 +75,7 @@ const Home = () => [
       date="07.2017 - 10.2017"
       location="Hamburg, DE"
     />
+  <p>(selection, for a complete overview visit LinkedIn)</p>
   </Section>,
   <Section headline="Education">
     <Event
