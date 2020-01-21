@@ -1,0 +1,12 @@
+.text-highlight {
+  color: #FF206E;
+  font-weight: bold; }
+
+.text-highlight:hover {
+  color: #FF206E !important;
+  text-decoration: none !important; }
+
+@media print {
+  .text-highlight {
+    color: #000; } }
+
