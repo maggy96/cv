@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import React from 'react';
-import Event from '../components/Event';
-import Section from '../components/Section/Section';
-import Skill from '../components/Skill';
+import Head from "next/head";
+import React from "react";
+import Event from "../components/Event";
+import Section from "../components/Section/Section";
+import Skill from "../components/Skill";
 
 const Home = () => [
   <Head>
@@ -14,12 +14,22 @@ const Home = () => [
       crossOrigin="anonymous"
     />
   </Head>,
-  <Section headline="Magnus Görlitz" >
+  <Section headline="Magnus Görlitz">
     <div>
-      <p>I'm a <b className="text-highlight">software engineer</b>, currently
-      specialized in the MERN stack. I strongly believe in agile practices and
-      good teamwork. I'm passionate about growth and learning and about
-      empowering awesome products to lead the market.</p>
+      <p>
+        I'm a <b className="text-highlight">software engineer</b>, currently
+        specialized in the MERN stack. I strongly believe in agile practices and
+        good teamwork. I'm passionate about growth, learning and empowering
+        awesome products to lead the market. Find an excerpt of my experiences
+        below. For a complete list refer to my{" "}
+        <a
+          href="https://www.linkedin.com/in/magnus-goerlitz/"
+          className="text-highlight"
+        >
+          LinkedIn
+        </a>
+        .
+      </p>
       <Skill>Ansible</Skill>
       <Skill>React</Skill>
       <Skill>GraphQL</Skill>
@@ -49,20 +59,20 @@ const Home = () => [
       institution="Klarna"
       description="Kicking off a new B2B-focused product team in the Consumer
       Services Domain, responsible for login, registration and step-up flows
-      that are secure, compliant and best in class experiences.
-      Optimization for quality, flow, fast feedback and time
-      to market. Focus on end-to-end ownership, continuous improvement, testing,
-      monitoring and experimentation."
+      that are secure, compliant and best in class experiences. Optimization
+      for quality, flow, fast feedback and time to market. Focus on end-to-end
+      ownership, continuous improvement, testing, monitoring and
+      experimentation."
       date="01.2020 - current"
       location="Stockholm, SE"
     />
     <Event
       title="Software Engineer"
       institution="CHECK24"
-      description="Working as part of an agile development team on dockerized NodeJS
-      microservices with MongoDB in the backend, React and Redux in the frontend.
-      Also did my bachelors thesis on integrating a message oriented middleware into
-      the existing codebase."
+      description="Working as part of an agile development team on dockerized
+      NodeJS microservices with MongoDB in the backend, React and Redux in the
+      frontend. Also did my bachelors thesis on integrating a message oriented
+      middleware into the existing codebase."
       date="11.2017 - 01.2020"
       location="Munich, DE"
     />
@@ -75,7 +85,6 @@ const Home = () => [
       date="07.2017 - 10.2017"
       location="Hamburg, DE"
     />
-  <p>(selection, for a complete overview visit LinkedIn)</p>
   </Section>,
   <Section headline="Education">
     <Event
@@ -87,7 +96,7 @@ const Home = () => [
       date="10.2014 - 02.2019"
       location="Augsburg, DE"
     />
-  </Section>,
+  </Section>
 ];
 
 export default Home;
