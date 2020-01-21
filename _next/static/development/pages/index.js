@@ -19,62 +19,77 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Event = function Event(_ref) {
-  var title = _ref.title,
-      institution = _ref.institution,
+  var date = _ref.date,
       description = _ref.description,
-      date = _ref.date;
+      institution = _ref.institution,
+      location = _ref.location,
+      title = _ref.title;
   return __jsx("div", {
     className: "row pb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 11
     },
     __self: this
   }, __jsx("div", {
     className: "col-md-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 12
     },
     __self: this
   }, __jsx("p", {
+    className: "mb-0 --blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 13
     },
     __self: this
   }, title, ' ', "@", ' ', __jsx("span", {
-    className: "font-weight-bold",
+    className: "font-weight-bold text-highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   }, institution)), __jsx("p", {
+    className: "right text-muted",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, location), __jsx("p", {
     className: "float-left text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 21
     },
     __self: this
   }, description)), __jsx("div", {
     className: "col-md-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 23
     },
     __self: this
-  }, __jsx("p", {
+  }, __jsx("span", {
     className: "float-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 24
     },
     __self: this
-  }, date)), __jsx("br", {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 25
+    },
+    __self: this
+  }, date))), __jsx("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
     },
     __self: this
   }));
@@ -84,16 +99,17 @@ Event.propTypes = {
   title: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   institution: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   description: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  date: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  date: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  location: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (Event);
 
 /***/ }),
 
-/***/ "./components/Section.jsx":
-/*!********************************!*\
-  !*** ./components/Section.jsx ***!
-  \********************************/
+/***/ "./components/Section/Section.jsx":
+/*!****************************************!*\
+  !*** ./components/Section/Section.jsx ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -103,9 +119,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proptypes */ "./node_modules/proptypes/index.js");
 /* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proptypes__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Section.scss */ "./components/Section.scss");
+/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Section.scss */ "./components/Section/Section.scss");
 /* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Section_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/magnus/code/resume/components/Section.jsx";
+var _jsxFileName = "/Users/magnus/code/resume/components/Section/Section.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -131,52 +147,28 @@ var Section = function Section(_ref) {
     },
     __self: this
   }, __jsx("div", {
-    className: "col-sm-1 col-md-2",
+    className: "col-sm-10 offset-sm-1 offset-md-2 col-md-8",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, __jsx("h1", {
-    className: "display-2 d-none d-lg-block",
+    className: "display-3 py-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, number)), __jsx("div", {
-    className: "col-sm-10 col-md-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx("h1", {
-    className: "display-4 pt-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, headline), __jsx("p", {
-    className: "py-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, description), children)));
+  }, headline), children)));
 };
 
 Section.propTypes = {
   headline: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  description: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  number: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   children: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.oneOfType([proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.arrayOf(proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node), proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.node])
 };
 Section.defaultProps = {
-  children: null,
-  description: null
+  children: null
 };
 /* harmony default export */ __webpack_exports__["default"] = (Section);
 
@@ -4199,7 +4191,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Event__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Event */ "./components/Event.jsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Section */ "./components/Section.jsx");
+/* harmony import */ var _components_Section_Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Section/Section */ "./components/Section/Section.jsx");
 /* harmony import */ var _components_Skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Skill */ "./components/Skill.jsx");
 var _jsxFileName = "/Users/magnus/code/resume/pages/index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
@@ -4232,199 +4224,225 @@ var Home = function Home() {
       lineNumber: 10
     },
     __self: this
-  })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "01",
+  })), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
     headline: "Magnus G\xF6rlitz",
-    description: "I'm an experienced full-stack engineer, specialized in the React/NodeJS stack. I'm a big fan of agile practices and good teamwork. In my opinion, there's nothing more beautiful than a clean and minimal codebase. In my experience, one of the biggest challenges in growing teams is keeping things up to date and technical debt at bay.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "02",
-    headline: "Work Experience",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Software Engineer",
-    institution: "CHECK24",
-    description: "Working as part of an agile development team on dockerized NodeJS microservices with MongoDB in the backend, React and Redux in the frontend. Also did my bachelors thesis on integrating a message oriented middleware into the existing codebase.",
-    date: "11.2017 - current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Software Engineer",
-    institution: "XING",
-    description: "Worked with React and Redux in an agile team of ~15 people and launched a new product which quickly gained huge traction thanks to lean startup practices.",
-    date: "07.2017 - 10.2017",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Working Student",
-    institution: "makandra",
-    description: "Maintained a lot of Rails projects, often LTS work on old versions of ruby/rails. Worked on applications for internal use as well as directly with the customer.",
-    date: "01.2017 - 11.2017",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "Intern",
-    institution: "Autumn",
-    description: "Worked in an agile team directly with the founders on a product disrupting the online market with AI. Company later on got funding from Axel Springer Plug&Play Accelerator.",
-    date: "01.2017 - 11.2017",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "03",
-    headline: "Education",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    title: "B.Sc., Computer Science",
-    institution: "University of Augsburg",
-    description: "Focus of studies: Multimedia/Distributed Systems. Thesis title: 'Comparison of Message Oriented Middlewares'",
-    date: "10.2014 - 03.2019",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  })), __jsx(_components_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    number: "04",
-    headline: "Skills",
-    description: "I try to learn new things whenever I can. In my current team, we often provide packages for other teams which makes it essential for me to know all the used libraries in detail.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 18
     },
     __self: this
-  }, __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 19
+    },
+    __self: this
+  }, "I'm a ", __jsx("b", {
+    className: "text-highlight",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "software engineer"), ", currently specialized in the MERN stack. I strongly believe in agile practices and good teamwork. I'm passionate about growth, learning and empowering awesome products to lead the market. Find an excerpt of my experiences below. For a complete list refer to my", " ", __jsx("a", {
+    href: "https://www.linkedin.com/in/magnus-goerlitz/",
+    className: "text-highlight",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "LinkedIn"), "."), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
     },
     __self: this
   }, "Ansible"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 34
     },
     __self: this
   }, "React"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 35
+    },
+    __self: this
+  }, "GraphQL"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
     },
     __self: this
   }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 37
     },
     __self: this
   }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 38
     },
     __self: this
   }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 39
     },
     __self: this
   }, "Webpack"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 40
     },
     __self: this
   }, "Jest"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 41
     },
     __self: this
   }, "Test Driven Development"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 42
     },
     __self: this
-  }, "Express.js"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Koa.js"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 43
     },
     __self: this
   }, "rabbitMQ"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 44
+    },
+    __self: this
+  }, "Kubernetes"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
     },
     __self: this
   }, "Unit Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 46
     },
     __self: this
   }, "Babel"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 47
     },
     __self: this
   }, "Redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 48
     },
     __self: this
   }, "NodeJS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 49
     },
     __self: this
   }, "Storybook"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 50
     },
     __self: this
   }, "Agile"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 51
     },
     __self: this
-  }, "Microservices")))];
+  }, "TypeScript"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Microservices"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "Grafana & Prometheus"))), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    headline: "Work Experience",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Engineer",
+    institution: "Klarna",
+    description: "Kicking off a new B2B-focused product team in the Consumer Services Domain, responsible for login, registration and step-up flows that are secure, compliant and best in class experiences. Optimization for quality, flow, fast feedback and time to market. Focus on end-to-end ownership, continuous improvement, testing, monitoring and experimentation.",
+    date: "01.2020 - current",
+    location: "Stockholm, SE",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Software Engineer",
+    institution: "CHECK24",
+    description: "Working as part of an agile development team on dockerized NodeJS microservices with MongoDB in the backend, React and Redux in the frontend. Also did my bachelors thesis on integrating a message oriented middleware into the existing codebase.",
+    date: "11.2017 - 01.2020",
+    location: "Munich, DE",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Intern",
+    institution: "XING",
+    description: "Worked with React and Redux in an agile team and launched a new B2B product which quickly gained huge traction thanks to lean startup practices. Completed intense methodology and soft skill trainings.",
+    date: "07.2017 - 10.2017",
+    location: "Hamburg, DE",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79
+    },
+    __self: this
+  })), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    headline: "Education",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "B.Sc., Computer Science",
+    institution: "University of Augsburg",
+    description: "Major in Multimedia. Thesis submitted to chair of Software Methodologies for Distributed Systems, title: 'Comparison of current implementations of Message Oriented Middlewares'",
+    date: "10.2014 - 02.2019",
+    location: "Augsburg, DE",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }))];
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
