@@ -3,27 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "start": "next dev",
     "build": "next build",
-    "start": "next start"
+    "serve": "next start",
+    "export": "next export"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.19.1",
+    "next": "9.2.0",
     "proptypes": "^1.1.0",
-    "react": "16.9.0",
-    "next": "9.0.5",
-    "react-dom": "16.9.0"
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint": "^6.3.0",
-    "node-sass": "^4.12.0"
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "node-sass": "^4.13.1"
   }
 }
