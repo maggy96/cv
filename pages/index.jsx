@@ -17,11 +17,12 @@ const Home = () => [
   <Section headline="Magnus Görlitz">
     <div>
       <p>
-        I'm a <b className="text-highlight">software engineer</b>, currently
-        specialized in the MERN stack. I strongly believe in agile practices and
-        good teamwork. I'm passionate about growth, learning and empowering
-        awesome products to lead the market. Find an excerpt of my experiences
-        below. For a complete list refer to my{" "}
+        I'm a <b className="text-highlight">software engineer</b> in Stockholm,
+        currently specialized in the MERN stack, but also working with Java and
+        Erlang. I strongly believe in agile practices and good teamwork. I'm
+        passionate about growth, learning and empowering awesome products to
+        lead the market. Find an excerpt of my experiences below. For a complete
+        list refer to my{" "}
         <a
           href="https://www.linkedin.com/in/magnus-goerlitz/"
           className="text-highlight"
@@ -58,11 +59,9 @@ const Home = () => [
       title="Engineer"
       institution="Klarna"
       description="Kicking off a new B2B-focused product team in the Consumer
-      Services Domain, responsible for login, registration and step-up flows
-      that are secure, compliant and best in class experiences. Optimization
-      for quality, flow, fast feedback and time to market. Focus on end-to-end
-      ownership, continuous improvement, testing, monitoring and
-      experimentation."
+      Services Domain. Optimization for quality, flow, fast feedback and time to
+      market. Focus on end-to-end ownership, continuous improvement, testing,
+      monitoring and experimentation."
       date="01.2020 - current"
       location="Stockholm, SE"
     />
