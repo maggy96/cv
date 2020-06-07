@@ -66,152 +66,104 @@ var Home = function Home() {
       lineNumber: 19
     },
     __self: this
-  }, "I'm a ", __jsx("b", {
+  }, "I'm a", ' ', __jsx("b", {
     className: "text-highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
-  }, "software engineer"), ", currently specialized in the MERN stack, but also working with Java and Erlang. I strongly believe in agile practices and good teamwork. I'm passionate about growth, learning and empowering awesome products to lead the market. Find an excerpt of my experiences below. For a complete list refer to my", " ", __jsx("a", {
+  }, "software engineer"), ' ', "in Stockholm, currently specialized in the MERN stack and Java. I strongly believe in agile practices and good teamwork. I'm passionate about growth, learning and empowering awesome products to lead the market. Find an excerpt of my experiences below. For a complete list refer to my", ' ', __jsx("a", {
     href: "https://www.linkedin.com/in/magnus-goerlitz/",
     className: "text-highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 30
     },
     __self: this
   }, "LinkedIn"), "."), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "Ansible"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 38
     },
     __self: this
   }, "React"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 39
     },
     __self: this
   }, "GraphQL"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 40
     },
     __self: this
   }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
   }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Webpack"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Jest"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "Test Driven Development"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }, "Koa.js"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Kafka"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }, "rabbitMQ"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Java"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
     },
     __self: this
-  }, "Kubernetes"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Spring Boot"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
     },
     __self: this
-  }, "Unit Testing"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
-  }, "Babel"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "NodeJS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
     },
     __self: this
-  }, "Redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "AWS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
-  }, "NodeJS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "Storybook"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "Agile"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, "TypeScript"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
   }, "Microservices"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 50
     },
     __self: this
   }, "Grafana & Prometheus"))), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
     headline: "Work Experience",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 53
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -222,7 +174,7 @@ var Home = function Home() {
     location: "Stockholm, SE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 54
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -233,7 +185,7 @@ var Home = function Home() {
     location: "Munich, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 64
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -244,14 +196,14 @@ var Home = function Home() {
     location: "Hamburg, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 74
     },
     __self: this
   })), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
     headline: "Education",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 84
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -262,7 +214,7 @@ var Home = function Home() {
     location: "Augsburg, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89
+      lineNumber: 85
     },
     __self: this
   }))];
@@ -273,4 +225,4 @@ var Home = function Home() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.8099457b2bbacc2cbb03.hot-update.js.map
+//# sourceMappingURL=index.js.4e2a7a676892c0769bce.hot-update.js.map
