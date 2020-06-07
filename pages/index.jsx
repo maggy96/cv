@@ -1,8 +1,8 @@
-import Head from "next/head";
-import React from "react";
-import Event from "../components/Event";
-import Section from "../components/Section/Section";
-import Skill from "../components/Skill";
+import Head from 'next/head';
+import React from 'react';
+import Event from '../components/Event';
+import Section from '../components/Section/Section';
+import Skill from '../components/Skill';
 
 const Home = () => [
   <Head>
@@ -17,12 +17,16 @@ const Home = () => [
   <Section headline="Magnus Görlitz">
     <div>
       <p>
-        I'm a <b className="text-highlight">software engineer</b> in Stockholm,
-        currently specialized in the MERN stack, but also working with Java and
-        Erlang. I strongly believe in agile practices and good teamwork. I'm
-        passionate about growth, learning and empowering awesome products to
-        lead the market. Find an excerpt of my experiences below. For a complete
-        list refer to my{" "}
+        I'm a
+        {' '}
+        <b className="text-highlight">software engineer</b>
+        {' '}
+in Stockholm,
+        currently specialized in the MERN stack and Java. I strongly believe in
+        agile practices and good teamwork. I'm passionate about growth, learning
+        and empowering awesome products to lead the market. Find an excerpt of
+        my experiences below. For a complete list refer to my
+        {' '}
         <a
           href="https://www.linkedin.com/in/magnus-goerlitz/"
           className="text-highlight"
@@ -31,35 +35,29 @@ const Home = () => [
         </a>
         .
       </p>
-      <Skill>Ansible</Skill>
       <Skill>React</Skill>
       <Skill>GraphQL</Skill>
       <Skill>MongoDB</Skill>
       <Skill>Redux</Skill>
       <Skill>Docker</Skill>
-      <Skill>Webpack</Skill>
-      <Skill>Jest</Skill>
-      <Skill>Test Driven Development</Skill>
-      <Skill>Koa.js</Skill>
-      <Skill>rabbitMQ</Skill>
-      <Skill>Kubernetes</Skill>
-      <Skill>Unit Testing</Skill>
-      <Skill>Babel</Skill>
+      <Skill>Kafka</Skill>
+      <Skill>Java</Skill>
+      <Skill>Spring Boot</Skill>
       <Skill>Redis</Skill>
-      <Skill>NodeJS</Skill>
-      <Skill>Storybook</Skill>
-      <Skill>Agile</Skill>
-      <Skill>TypeScript</Skill>
-      <Skill>Microservices</Skill>
+      <Skill>Jenkins</Skill>
       <Skill>Grafana & Prometheus</Skill>
+      <Skill>Node</Skill>
+      <Skill>AWS</Skill>
+      <Skill>Microservices</Skill>
+      <Skill>Go</Skill>
     </div>
   </Section>,
   <Section headline="Work Experience">
     <Event
       title="Engineer"
       institution="Klarna"
-      description="Kicking off a new B2B-focused product team in the Consumer
-      Services Domain. Optimization for quality, flow, fast feedback and time to
+      description="Kicking off a new B2B-focused product team in the Purchase
+      Experience Domain. Optimization for quality, flow, fast feedback and time to
       market. Focus on end-to-end ownership, continuous improvement, testing,
       monitoring and experimentation."
       date="01.2020 - current"
@@ -95,7 +93,7 @@ const Home = () => [
       date="10.2014 - 02.2019"
       location="Augsburg, DE"
     />
-  </Section>
+  </Section>,
 ];
 
 export default Home;
