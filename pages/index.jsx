@@ -2,7 +2,8 @@ import Head from 'next/head';
 import React from 'react';
 import Event from '../components/Event';
 import Section from '../components/Section/Section';
-import Skill from '../components/Skill';
+import Skill from '../components/Skill/Skill';
+import './index.scss';
 
 const Home = () => [
   <Head>
@@ -14,42 +15,33 @@ const Home = () => [
       crossOrigin="anonymous"
     />
   </Head>,
-  <Section headline="Magnus Görlitz">
+  <Section headline="Magnus Görlitz ✌️">
     <div>
       <p>
         I'm a
         {' '}
         <b className="text-highlight">software engineer</b>
         {' '}
-in Stockholm,
+        in Stockholm,
         currently specialized in the MERN stack and Java. I strongly believe in
         agile practices and good teamwork. I'm passionate about growth, learning
-        and empowering awesome products to lead the market. Find an excerpt of
-        my experiences below. For a complete list refer to my
-        {' '}
-        <a
-          href="https://www.linkedin.com/in/magnus-goerlitz/"
-          className="text-highlight"
-        >
-          LinkedIn
-        </a>
-        .
+        and empowering awesome products to lead the market.
       </p>
       <Skill>React</Skill>
       <Skill>GraphQL</Skill>
       <Skill>MongoDB</Skill>
       <Skill>Redux</Skill>
       <Skill>Docker</Skill>
+      <Skill>TypeScript</Skill>
       <Skill>Kafka</Skill>
       <Skill>Java</Skill>
       <Skill>Spring Boot</Skill>
       <Skill>Redis</Skill>
       <Skill>Jenkins</Skill>
       <Skill>Grafana & Prometheus</Skill>
-      <Skill>Node</Skill>
+      <Skill>NodeJS</Skill>
       <Skill>AWS</Skill>
       <Skill>Microservices</Skill>
-      <Skill>Go</Skill>
     </div>
   </Section>,
   <Section headline="Work Experience">
@@ -74,6 +66,7 @@ in Stockholm,
       location="Munich, DE"
     />
     <Event
+      last
       title="Intern"
       institution="XING"
       description="Worked with React and Redux in an agile team and launched a
@@ -85,6 +78,7 @@ in Stockholm,
   </Section>,
   <Section headline="Education">
     <Event
+      last
       title="B.Sc., Computer Science"
       institution="University of Augsburg"
       description="Major in Multimedia. Thesis submitted to chair

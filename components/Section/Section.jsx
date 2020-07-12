@@ -1,9 +1,8 @@
 import React from 'react';
 import PropTypes from 'proptypes';
-import './Section.scss';
 
 const Section = ({
-  headline, description, number, children,
+  headline, children,
 }) => (
   <div className="container py-5 section">
     <div className="row">

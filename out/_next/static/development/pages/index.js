@@ -23,73 +23,74 @@ var Event = function Event(_ref) {
       description = _ref.description,
       institution = _ref.institution,
       location = _ref.location,
-      title = _ref.title;
+      title = _ref.title,
+      last = _ref.last;
   return __jsx("div", {
-    className: "row pb-5",
+    className: "row ".concat(last ? '' : 'pb-5'),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, __jsx("div", {
     className: "col-md-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, __jsx("p", {
     className: "mb-0 --blue",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, title, ' ', "@", ' ', __jsx("span", {
     className: "font-weight-bold text-highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, institution)), __jsx("p", {
     className: "right text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, location), __jsx("p", {
     className: "float-left text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, description)), __jsx("div", {
     className: "col-md-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, __jsx("span", {
     className: "float-right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, __jsx("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, date))), __jsx("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   }));
@@ -100,7 +101,11 @@ Event.propTypes = {
   institution: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   description: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
   date: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
-  location: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired
+  location: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.string.isRequired,
+  last: proptypes__WEBPACK_IMPORTED_MODULE_1___default.a.bool
+};
+Event.defaultProps = {
+  last: false
 };
 /* harmony default export */ __webpack_exports__["default"] = (Event);
 
@@ -119,45 +124,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proptypes */ "./node_modules/proptypes/index.js");
 /* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proptypes__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Section.scss */ "./components/Section/Section.scss");
-/* harmony import */ var _Section_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Section_scss__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/magnus/code/web/cv/components/Section/Section.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
 var Section = function Section(_ref) {
   var headline = _ref.headline,
-      description = _ref.description,
-      number = _ref.number,
       children = _ref.children;
   return __jsx("div", {
     className: "container py-5 section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 7
     },
     __self: this
   }, __jsx("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, __jsx("div", {
     className: "col-sm-10 offset-sm-1 offset-md-2 col-md-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, __jsx("h1", {
     className: "display-3 py-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, headline), children)));
@@ -174,10 +174,10 @@ Section.defaultProps = {
 
 /***/ }),
 
-/***/ "./components/Skill.jsx":
-/*!******************************!*\
-  !*** ./components/Skill.jsx ***!
-  \******************************/
+/***/ "./components/Skill/Skill.jsx":
+/*!************************************!*\
+  !*** ./components/Skill/Skill.jsx ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -187,18 +187,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! proptypes */ "./node_modules/proptypes/index.js");
 /* harmony import */ var proptypes__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(proptypes__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/magnus/code/web/cv/components/Skill.jsx";
+/* harmony import */ var _Skill_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Skill.scss */ "./components/Skill/Skill.scss");
+/* harmony import */ var _Skill_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Skill_scss__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/Users/magnus/code/web/cv/components/Skill/Skill.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
 var Skill = function Skill(_ref) {
   var children = _ref.children;
   return __jsx("span", {
-    className: "badge badge-pill badge-light m-1 p-2",
+    className: "badge badge-pill badge-light m-1 p-2 skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, children);
@@ -4208,9 +4211,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Event__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Event */ "./components/Event.jsx");
 /* harmony import */ var _components_Section_Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Section/Section */ "./components/Section/Section.jsx");
-/* harmony import */ var _components_Skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Skill */ "./components/Skill.jsx");
+/* harmony import */ var _components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Skill/Skill */ "./components/Skill/Skill.jsx");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./index.scss */ "./pages/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/magnus/code/web/cv/pages/index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
 
 
 
@@ -4221,13 +4227,13 @@ var Home = function Home() {
   return [__jsx(next_head__WEBPACK_IMPORTED_MODULE_0___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, "Magnus G\xF6rlitz"), __jsx("link", {
@@ -4237,138 +4243,130 @@ var Home = function Home() {
     crossOrigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   })), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    headline: "Magnus G\xF6rlitz",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx("div", {
+    headline: "Magnus G\xF6rlitz \u270C\uFE0F",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, __jsx("p", {
+  }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }, "I'm a", ' ', __jsx("b", {
     className: "text-highlight",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
-  }, "software engineer"), ' ', "in Stockholm, currently specialized in the MERN stack and Java. I strongly believe in agile practices and good teamwork. I'm passionate about growth, learning and empowering awesome products to lead the market. Find an excerpt of my experiences below. For a complete list refer to my", ' ', __jsx("a", {
-    href: "https://www.linkedin.com/in/magnus-goerlitz/",
-    className: "text-highlight",
+  }, "software engineer"), ' ', "in Stockholm, currently specialized in the MERN stack and Java. I strongly believe in agile practices and good teamwork. I'm passionate about growth, learning and empowering awesome products to lead the market."), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, "LinkedIn"), "."), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "React"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "GraphQL"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "MongoDB"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, "Redux"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Docker"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "TypeScript"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Kafka"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Java"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, "React"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Spring Boot"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, "GraphQL"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Redis"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
-  }, "MongoDB"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Jenkins"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
-  }, "Redux"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "Grafana & Prometheus"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, "Docker"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "NodeJS"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }, "Kafka"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }, "AWS"), __jsx(_components_Skill_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }, "Java"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "Spring Boot"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, "Redis"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "Jenkins"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, "Grafana & Prometheus"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "Node"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "AWS"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "Microservices"), __jsx(_components_Skill__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, "Go"))), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, "Microservices"))), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
     headline: "Work Experience",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 47
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4379,7 +4377,7 @@ var Home = function Home() {
     location: "Stockholm, SE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 48
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -4390,10 +4388,11 @@ var Home = function Home() {
     location: "Munich, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 58
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    last: true,
     title: "Intern",
     institution: "XING",
     description: "Worked with React and Redux in an agile team and launched a new B2B product which quickly gained huge traction thanks to lean startup practices. Completed intense methodology and soft skill trainings.",
@@ -4401,17 +4400,18 @@ var Home = function Home() {
     location: "Hamburg, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 68
     },
     __self: this
   })), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
     headline: "Education",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 79
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    last: true,
     title: "B.Sc., Computer Science",
     institution: "University of Augsburg",
     description: "Major in Multimedia. Thesis submitted to chair of Software Methodologies for Distributed Systems, title: 'Comparison of current implementations of Message Oriented Middlewares'",
@@ -4419,7 +4419,7 @@ var Home = function Home() {
     location: "Augsburg, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 80
     },
     __self: this
   }))];

@@ -7,8 +7,9 @@ const Event = ({
   institution,
   location,
   title,
+  last,
 }) => (
-  <div className="row pb-5">
+  <div className={`row ${last ? '' : 'pb-5'}`}>
     <div className="col-md-8">
       <p className="mb-0 --blue">
         {title}
@@ -35,6 +36,11 @@ Event.propTypes = {
   description: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
+  last: PropTypes.bool,
+};
+
+Event.defaultProps = {
+  last: false,
 };
 
 export default Event;
