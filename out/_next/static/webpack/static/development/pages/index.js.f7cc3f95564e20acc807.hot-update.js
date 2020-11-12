@@ -196,6 +196,17 @@ var Home = function Home() {
     },
     __self: this
   }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Working Student",
+    institution: "makandra GmbH",
+    description: "Specialized Ruby/Rails maintenance and lts work. Some applications were over 10 years old. Also worked on applications for internal use and directly with the customer.",
+    date: "01.2017 - 11.2017",
+    location: "Augsburg, DE",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }), __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
     last: true,
     title: "Intern",
     institution: "XING",
@@ -204,14 +215,14 @@ var Home = function Home() {
     location: "Hamburg, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 77
     },
     __self: this
   })), __jsx(_components_Section_Section__WEBPACK_IMPORTED_MODULE_3__["default"], {
     headline: "Education",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 88
     },
     __self: this
   }, __jsx(_components_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -223,7 +234,7 @@ var Home = function Home() {
     location: "Augsburg, DE",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 89
     },
     __self: this
   }))];
@@ -234,4 +245,4 @@ var Home = function Home() {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.ac4491dc1209153e8e83.hot-update.js.map
+//# sourceMappingURL=index.js.f7cc3f95564e20acc807.hot-update.js.map

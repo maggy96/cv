@@ -66,6 +66,15 @@ const Home = () => [
       location="Munich, DE"
     />
     <Event
+      title="Working Student"
+      institution="makandra GmbH"
+      description="Specialized Ruby/Rails maintenance and lts work. Some
+      applications were over 10 years old. Also worked on applications for
+      internal use and directly with the customer."
+      date="01.2017 - 11.2017"
+      location="Augsburg, DE"
+      ></Event>
+    <Event
       last
       title="Intern"
       institution="XING"
